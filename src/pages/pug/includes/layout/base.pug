@@ -1,0 +1,29 @@
+include ../../utils/mixins
+-
+  //Localization
+
+
+
+
+  //Path
+  imgPath = '/assets/img/'
+  basePath = '/'
+
+
+  //Data
+
+
+
+
+block variables
+
+doctype html
+html(lang=locale)
+  head
+    include ../templates/baseHead
+    title=title
+    block head
+  body
+    include ../layout/header
+    block main
+
