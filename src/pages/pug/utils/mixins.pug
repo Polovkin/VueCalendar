@@ -107,3 +107,6 @@ mixin LinkImg(path,url,linkClass)
 
 mixin Button(btnClass,text,type)
   button(class=btnClass, type=type === undefined ? 'button' : type)=text
+
+mixin Vue(text)
+  p=text

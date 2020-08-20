@@ -10,13 +10,13 @@ const store = new Vuex.Store({
   state: {
 
   },
-  mutations: { // Что изменить
+  mutations: {
 
   },
-  actions: { // Асинхронный вызов мутации
+  actions: {
 
   },
-  getters: { // вернуть значение
+  getters: {
 
   },
   modules: {
